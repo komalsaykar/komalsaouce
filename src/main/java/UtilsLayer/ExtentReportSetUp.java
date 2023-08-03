@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -20,6 +19,8 @@ public class ExtentReportSetUp extends BaseClass{
 	// get the current date and time
 	// capture the screenshot and store in desired loaction
 	
+	private static final String FileUtils = null;
+
 	public static ExtentReports setUp(String reportName)
 	{
 		String path = System.getProperty("user.dir")+"//ExtentReports//"+reportName+date()+".html";

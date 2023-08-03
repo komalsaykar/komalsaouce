@@ -66,15 +66,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    	<groupId>OrangeHRM</groupId>
-    	<artifactId>OangeHrm</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
+      <dependency>
     	<groupId>SeleniumTutorial1</groupId>
     	<artifactId>SeleniumTutorial1</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.1.2</version>
+</dependency>
+
   </dependencies>
 </project>
